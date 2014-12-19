@@ -1,0 +1,14 @@
+{
+  "name": "filerealpath",
+  "version": "1.0.0",
+  "description": "Returns the absolute path given the relative path",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "realpath"
+  ],
+  "author": "@hugozap",
+  "license": "MIT"
+}
