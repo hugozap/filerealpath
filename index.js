@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 var fs = require('fs');
 var path = require('path');
-
+var getAbsolutePath = require('./getAbsolutePath');
 var argpath = process.argv[2];
 
 if(typeof argpath === 'undefined'){
@@ -8,6 +9,6 @@ if(typeof argpath === 'undefined'){
 	process.exit(1);
 }
 else{
-	process.stdout.write(path.resolve('.',argpath))
+	process.stdout.write(getAbsolutePath(argpath));
 	process.exit(0);
 }

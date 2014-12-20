@@ -4,11 +4,17 @@
   "description": "Returns the absolute path given the relative path",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node tests/test.js"
   },
   "keywords": [
-    "realpath"
+    "realpath","absolute path"
   ],
+  "bin":{
+    "filerealpath":"index.js"
+  },
   "author": "@hugozap",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
 }

@@ -1,6 +1,6 @@
 #filerealpath
 
-This utility can be called from the console 
+Command line utility that returns an absolute path given a relative one.
 
 	filerealpath myFile
 
